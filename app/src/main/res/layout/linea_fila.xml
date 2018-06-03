@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/Linea"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="Linea"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f65034"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/Ramal"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Linea"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="Ramal" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Ramal"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:maxHeight="35dp"
+        android:maxWidth="74dp"
+        android:src="@mipmap/ic_colectivo" />
+
+</RelativeLayout>
